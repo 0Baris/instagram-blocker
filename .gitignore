@@ -1,3 +1,6 @@
 env
 blocker.ipynb
 __pycache__
+build
+dist
+instagram-blocker.spec

@@ -2,6 +2,20 @@
 
 A simple Python application that allows you to block Instagram accounts in bulk.
 
+## Table of Contents
+- [Instagram Blocker](#instagram-blocker)
+  - [Table of Contents](#table-of-contents)
+  - [Installation](#installation)
+  - [Important Notes](#important-notes)
+  - [Usage](#usage)
+  - [Security](#security)
+  - [Developer Notes](#developer-notes)
+    - [Requirements](#requirements)
+    - [Setup](#setup)
+    - [Contributing](#contributing)
+  - [Bug Reports](#bug-reports)
+  - [License](#license)
+
 ## Installation
 
 1. Download the latest release from the [Releases](https://github.com/0baris/instagram-blocker/releases) page
@@ -11,7 +25,7 @@ A simple Python application that allows you to block Instagram accounts in bulk.
 
 ## Important Notes
 
-- You must temporarily disable Two-Factor Authentication on your Instagram account before running the program
+- You must temporarily disable Two-Factor Authentication before running the program
 - Do not attempt to block more than 100 accounts at once
 - Wait approximately 3-3.5 hours after blocking 100 accounts
 - You can review all the code, it poses no risk to your account
@@ -20,13 +34,37 @@ A simple Python application that allows you to block Instagram accounts in bulk.
 
 1. Run the program
 2. Enter your Instagram username and password
-3. The program will automatically start blocking the accounts listed in `block_list.txt`
+3. The program will automatically start blocking accounts listed in `block_list.txt`
 
 ## Security
 
 - Your username and password are only used to log in to Instagram
 - No data is stored or shared with third parties
 - All operations are performed locally on your computer
+
+## Developer Notes
+
+### Requirements
+- Python 3.8+
+
+### Setup
+```bash
+# Clone the repository
+git clone https://github.com/0baris/instagram-blocker.git
+
+# Install required packages
+pip install -r requirements.txt
+
+# Start script
+python main.py
+```
+
+### Contributing
+1. Fork this repository
+2. Create a new branch (`git checkout -b feature/newFeature`)
+3. Commit your changes (`git commit -am 'Add new feature: Description'`)
+4. Push to the branch (`git push origin feature/newFeature`)
+5. Create a Pull Request
 
 ## Bug Reports
 
