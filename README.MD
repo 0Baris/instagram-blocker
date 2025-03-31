@@ -1,6 +1,7 @@
 # Instagram Blocker
 
 Instagram'da toplu engelleme yapmanızı sağlayan basit bir Python uygulaması.
+[Click here for English](README_EN.MD)
 
 ## İçindekiler
 - [Instagram Blocker](#instagram-blocker)
